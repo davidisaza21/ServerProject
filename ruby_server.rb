@@ -2,14 +2,8 @@
 
 require 'sinatra'
 
+
+
 get '/' do
-
- "Hello world"
-
-end
-
-get '/wyncode' do
-
- "Hello world"
-
+File.read(File.join('public', 'Hello world!.txt'))
 end
