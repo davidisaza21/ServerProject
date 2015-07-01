@@ -42,41 +42,41 @@ intel_stock = intel.first
 microsoft_stock = microsoft.first
 
 # p'd all my outputs to make sure all my information was scaped correctly
-# p apple_stock.text
-# p google_stock.text
-# p facebook_stock.text
-# p intel_stock.text
-# p microsoft_stock.text
+p apple_stock.text
+p google_stock.text
+p facebook_stock.text
+p intel_stock.text
+p microsoft_stock.text
 
 # puts "The current price of AAPL is $#{apple.text}"
 
 # display menu with list of the five different stock prices they can look at include only five choices
-put_a_line
-puts "Welcome to our Nasdaq top five ticker."
-put_a_line
-puts "You can choose to see the stock for any of todays top five stock."
-puts "Stock Options for today:[Apple => AAPL, Google => GOOG, Facebook => FB, Intel => INTC, Microsoft => MSFT]"
-put_a_line
-stock_option = "aapl"
-put_a_line
-# ask user for which stock price he is looking for allow for search in both symbol and name
-case stock_option
-	when "aapl","apple"
-		puts "The current price of AAPL is $#{apple.text}"
-	when "goog","google"
-		puts "The current price of GOOG is $#{google.text}"
-	when "fb", "Facebook"
-		puts "The current price of FB is $#{facebook.text}"
-	when "intc", "intel"
-		puts "The current price of INTC is $#{intel.text}"
-	when "msft", "microsoft"
-		puts "The current price of MSFT is $#{microsoft.text}"
-	else
-		puts "Looks like that stock didn't make our list for today."
-end
-put_a_line
-puts "Thank you for searching your stock prices with us today!"
-# scrap information for all the stock to include stock previous day close change percent change and current price
+# put_a_line
+# puts "Welcome to our Nasdaq top five ticker."
+# put_a_line
+# puts "You can choose to see the stock for any of todays top five stock."
+# puts "Stock Options for today:[Apple => AAPL, Google => GOOG, Facebook => FB, Intel => INTC, Microsoft => MSFT]"
+# put_a_line
+# stock_option = "aapl"
+# put_a_line
+# # ask user for which stock price he is looking for allow for search in both symbol and name
+# case stock_option
+# 	when "aapl","apple"
+# 		puts "The current price of AAPL is $#{apple.text}"
+# 	when "goog","google"
+# 		puts "The current price of GOOG is $#{google.text}"
+# 	when "fb", "Facebook"
+# 		puts "The current price of FB is $#{facebook.text}"
+# 	when "intc", "intel"
+# 		puts "The current price of INTC is $#{intel.text}"
+# 	when "msft", "microsoft"
+# 		puts "The current price of MSFT is $#{microsoft.text}"
+# 	else
+# 		puts "Looks like that stock didn't make our list for today."
+# end
+# put_a_line
+# puts "Thank you for searching your stock prices with us today!"
+# # scrap information for all the stock to include stock previous day close change percent change and current price
 
 
 
