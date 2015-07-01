@@ -38,10 +38,10 @@ intel_stock = intel.first
 microsoft_stock = microsoft.first
 
 # p'd all my outputs to make sure all my information was scaped correctly
-puts "The current price of AAPL is $#{apple.text}"
-puts "The current price of GOOG is $#{google.text}"
-puts "The current price of FB is $#{facebook.text}"
-puts "The current price of INTC is $#{intel.text}"
-puts "The current price of MSFT is $#{microsoft.text}"
+p "The current price of AAPL is $#{apple.text}"
+p "The current price of GOOG is $#{google.text}"
+p "The current price of FB is $#{facebook.text}"
+p "The current price of INTC is $#{intel.text}"
+p "The current price of MSFT is $#{microsoft.text}"
 
 end
