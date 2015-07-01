@@ -1,7 +1,7 @@
 # ruby_server.rb
 
 require 'sinatra'
-require 'HTTParty'
+require 'httparty'
 require 'nokogiri'
 
 

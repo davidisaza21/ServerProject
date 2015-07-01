@@ -5,7 +5,7 @@
 # end
 
 #HTTParty, and Nokogiri gems called
-require 'HTTParty'
+require 'httparty'
 require 'nokogiri'
 require 'sinatra'
 
