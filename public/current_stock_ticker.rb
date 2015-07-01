@@ -1,8 +1,8 @@
 # current_stock_ticker.rb
 
-def put_a_line
-  puts " " * 100
-end
+# def put_a_line
+#   puts " " * 100
+# end
 
 #HTTParty, and Nokogiri gems called
 require 'HTTParty'
@@ -42,11 +42,11 @@ intel_stock = intel.first
 microsoft_stock = microsoft.first
 
 # p'd all my outputs to make sure all my information was scaped correctly
-p apple_stock.text
-p google_stock.text
-p facebook_stock.text
-p intel_stock.text
-p microsoft_stock.text
+puts apple_stock.text
+puts google_stock.text
+puts facebook_stock.text
+puts intel_stock.text
+puts microsoft_stock.text
 
 # puts "The current price of AAPL is $#{apple.text}"
 
