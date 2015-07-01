@@ -1,7 +1,8 @@
 # ruby_server.rb
 
 require 'sinatra'
-
+require 'HTTParty'
+require 'nokogiri'
 
 
 get '/' do
